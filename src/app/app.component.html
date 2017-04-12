@@ -1,3 +1,21 @@
 <h1>
-  {{title}}
+  Lifecycle Demo
 </h1>
+
+<button (click)="hide=!hide">box toggle</button>
+<button (click)="changeHeader()">change input object</button>
+<button (click)="changeHeaderText()">change input object attribute</button>
+<button (click)="logs=[];appLogs=[];childLogs=[]">clear log</button>
+<hr/>
+
+<app-dummy-text></app-dummy-text>
+
+<app-box (onLifycleEvent)="boxEvent($event)" [header]="header" *ngIf="!hide">
+  <h2> Demo Box </h2>
+  <app-dummy-text></app-dummy-text>
+</app-box>
+
+
+<div class="log">Events:app-component<br/><textarea rows="100" cols="50">{{appLogs.join("\n")}}</textarea></div>
+<div class="log">Events:box-component<br/><textarea rows="100" cols="50">{{logs.join("\n")}}</textarea></div>
+<div class="log">Child Availability app-component<br/><textarea rows="100" cols="80">{{childLogs.join("\n")}}</textarea></div>

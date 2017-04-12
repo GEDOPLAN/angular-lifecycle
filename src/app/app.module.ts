@@ -4,10 +4,14 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
+import {BoxComponent} from './box/box.component';
+import { DummyTextComponent } from './dummy-text/dummy-text.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    BoxComponent,
+    DummyTextComponent
   ],
   imports: [
     BrowserModule,
