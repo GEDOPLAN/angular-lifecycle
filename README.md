@@ -10,7 +10,7 @@ Block [https://javaeeblog.wordpress.com/?p=3338](https://javaeeblog.wordpress.co
  - ngAfterContentChecked
  - ngDoCheck
 
-![demo anwendung](http://raw.githubusercontent.com/GEDOPLAN/angular-lifecycle/master/docs/demo.png)
+![Screenshot](docs/demo.png)
 
 ```
 by GEDOPLAN, Dominik Mathmann
