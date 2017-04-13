@@ -1,5 +1,5 @@
 # Lifycycle Methoden von Angular
-Block [https://javaeeblog.wordpress.com/?p=3338](https://javaeeblog.wordpress.com/?p=3338)
+Blog [https://javaeeblog.wordpress.com/?p=3338](https://javaeeblog.wordpress.com/?p=3338)
 
  - ngOnInit
  - ngOnChanges
